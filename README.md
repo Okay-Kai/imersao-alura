@@ -1,2 +1,3 @@
-# imersao-alura
-Estudos e registros da imersão Front-End da Alura
+# Imersão Front-End Alura
+Repositório destinado aos estudos realizados das tecnologias de Front-End desenvolvidos com a 
+Imersão Front-End da Alura! 💻📚

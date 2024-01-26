@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation__logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation__logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Desafio aula 01 - Feita sem auxílio */
+
+/* Estilização do menu de biblioteca do usuário */
+.library {
+    height: 100px;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    margin-top: 10px;
+}
+
+.library__content {
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    width: fit-content;
+    font-size: 16px;
+    color: #b3b3b3;
+}
+
+#library__content__button {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+}
+
+/* Estilização dos ícones importados */
+.fa {
+    font-size: 20px;
+}
+
+.fa-plus {
+    margin-left: 100px;
+    font-size: 14px;
+}

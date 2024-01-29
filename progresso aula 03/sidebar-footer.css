@@ -1,10 +1,12 @@
+/* BARRA LATERAL E FOOTER */
 body {
     background-color: black;
-    
+    font-family: var(--font-dm-sans);
 }
 
 button {
     cursor: pointer;
+    font-family: inherit;
 }
 
 .sidebar {
@@ -14,7 +16,6 @@ button {
     bottom: 0;
     padding: 12px;
     width: 300px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar__navigation {
@@ -181,7 +182,6 @@ button {
     bottom: 0;
     left: 0;
     right: 0;
-    font-family: "DM Sans", sans-serif;
     background-image: linear-gradient(to right, darkmagenta 0%, rgb(0, 171, 234) 100%);
 }
 
@@ -208,7 +208,6 @@ button {
     font-size: 16px;
     font-weight: 700;
     background-color: #fff;
-
 }
 
 .disclaimer-premium__title {

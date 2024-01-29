@@ -11,9 +11,12 @@
        
         
         <link rel="stylesheet" href="../src/styles/reset.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../src/styles/vars.css">
+        <link rel="stylesheet" href="sidebar-footer.css">
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <!-- Barra lateral do site -->
         <div class="sidebar">
 
             <!-- Menu de navegação do usuário -->
@@ -72,7 +75,37 @@
             </div> 
         </div>
 
-        <!-- Mensagem do rodapé do site -->
+        <!-- Bloco principal do site -->
+        <main>
+            <div class="main-container">
+                <!-- Navbar/Cabeçalho -->
+                <nav class="header">
+                    <!-- Navegação -->
+                    <div class="header__navigation">
+                        <!-- Botão retornar -->
+                        <button class="arrow-left">
+                            <img src="../src/assets/icons/small-left.png" alt="ícone de seta esquerda">
+                        </button>
+                        <!-- Botão avançar -->
+                        <button class="arrow-right">
+                            <img src="../src/assets/icons/small-right.png" alt="ícone de seta direita">
+                        </button>
+                    </div>
+                    <!-- Pesquisar -->
+                    <div class="header__search">
+                        <img src="../src/assets/icons/search.png" alt="">
+                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
+                    </div>
+                    <!-- Login/Inscrição -->
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+            </div>
+        </main>
+
+        <!-- Rodapé do site -->
         <footer class="disclaimer-premium">
             <div class="disclaimer-premium-text">
                 <p class="disclaimer-premium__title">testar o premium de graça</p>

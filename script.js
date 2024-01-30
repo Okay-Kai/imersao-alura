@@ -3,6 +3,7 @@ const resutlsArtists = document.getEelementById('result-artist');
 const resultPlaylist = document.getElementById('discover');
 
 function requestApi(searchTerm) {
+/* Tentar iniciar o json-server em casa*/
     const url = `http://localhost:3000/artists?name_like=$(searchTerm)`
     fetch(url)
         .then((response) => response.json())

@@ -7,11 +7,15 @@
 }
 
 .discover__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 24px;
 }
 
 .discover-title {
     color: #fff;
+    align-content: flex-start;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
@@ -19,6 +23,7 @@
 
 .discover-subtitle {
     color: #fff;
+    align-content: flex-end;
     font-size: 24px;
     font-weight: 700;
 }
@@ -117,6 +122,10 @@
     height: auto;
     width: 107px;
     transform: rotate(25deg) translate(-18%, -2%);
+}
+
+.hidden {
+    display: none;
 }
 
 /* CARD ARTISTA */
